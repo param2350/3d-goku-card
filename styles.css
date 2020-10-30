@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
     perspective: 1000px;
 }
 
@@ -20,6 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .card {
@@ -70,7 +72,7 @@ body {
 .info h3 {
     font-size: 1.4rem;
     padding: 2rem 0rem;
-    color: #585858;
+    color: #a5a4a4;
     font-weight: lighter;
     transition: all 0.5s ease-out;
 }
@@ -88,19 +90,19 @@ body {
     padding: 0.6rem 2.1rem;
     background: none;
     border: none;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgba(256, 256, 256, 0.2);
     border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
-    color: #585858;
+    color: rgb(102, 102, 102);
     margin:  0 0.5rem;
 
 
 }
 
 .button.active {
-    background: #585858;
-    color: white;
+    background: #b31616;
+    color: black;
 }
 
 .kakarot {
@@ -120,6 +122,6 @@ body {
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgba(256, 256, 256, 0.2);
 
 }
